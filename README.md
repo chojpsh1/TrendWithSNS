@@ -1,0 +1,2 @@
+# TrendWithSNS
+Graduation project
