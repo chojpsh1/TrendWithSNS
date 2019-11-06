@@ -9,6 +9,8 @@ And also we collected the time the event (ex. destroy the turret, get killed, ..
 
 ##### Python 3.7
 
+##### Google Colab
+
 ##### InfluxDB 1.4
 
 > For influxDB 8086 port used
@@ -27,6 +29,25 @@ And also we collected the time the event (ex. destroy the turret, get killed, ..
 
 > reference this documnet. (https://developer.twitter.com/en/docs)
 
+#### Clone this repository
+
+> ```git clone https://github.com/chojpsh1/TrendWithSNS.git```
+
+## Analysis
+
+#### Datasets
+
+> We saved the dataset collected in InfluxDB in the 'TrendWithSNS/Trend_analysis/data' directory.
+
+#### trend_analysis.py
+> First, check the dataset is downloaded correctly.
+
+> By default, we assume our basic directory is 'TrendWithSNS/Trend_analysis'.
+
+- To analyze the trend with SNS,
+
+> ```python trend_analysis.py```
+
 ## Python codes
 
 ##### influxDB_python.py
@@ -37,3 +58,16 @@ And also we collected the time the event (ex. destroy the turret, get killed, ..
 
 > This project requires two arguments. One is the account of being collected and the other is id of tweet which is the start of collecting.
 > This program gets information of total number of likes, followers and retweets with using twitter API.
+
+#### total_analysis.ipynb
+
+> This is a quick glance at how the team's SNS information is analyzed. 
+>We analyzed the information of eight teams participating in the 2019 LCK.
+
+> We used Google colab as the environment for running this program. But you must save the collected data to google drive and reset it for your path.
+
+#### trend_analysis.py
+
+> This program was run in a cmd.exe window and pops up a visualization of the analysis information of eight teams.
+
+> We then visualized the eight teams in order of the highest icreasing rate of 'likes' per minute. After showing this, we also visualized it by considering the followers of each team account.
