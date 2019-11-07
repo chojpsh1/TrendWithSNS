@@ -33,6 +33,8 @@ And also we collected the time the event (ex. destroy the turret, get killed, ..
 
 > ```git clone https://github.com/chojpsh1/TrendWithSNS.git```
 
+> Set your 'Twitter API key' to use this program.
+
 ## Analysis
 
 #### Datasets
