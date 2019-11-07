@@ -52,10 +52,10 @@ from requests_oauthlib import OAuth1
 import datetime
 import sys
 
-consumer_key = "H6n8iNGjoYn7LSAwJ4EVdgUp0"
-consumer_secret = "EG3xEAZiBVTqhcyD4vraMI77DWZqc011WAKQUQKUEDJQvu8KXD"
-access_token = "1106089951026802688-mjt7lFHt0ztzZ5rfavuhBwkduALIcK"
-access_token_secret = "goZqDYEn0RlJotylyky6MgW4XVGKvT7Ts9EY1eVqtA7K6"
+consumer_key = '''your consumer_key'''
+consumer_secret = '''your consumer_secret'''
+access_token = '''your access_token'''
+access_token_secret = '''your access_token_secret'''
 
 oauth = OAuth1(client_key=consumer_key, client_secret=consumer_secret, resource_owner_key=access_token, resource_owner_secret=access_token_secret)
 
